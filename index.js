@@ -3,7 +3,8 @@ const Pdf = require('./lib/pdf-parse.js');
 
 module.exports = Pdf;
 
-let isDebugMode = !module.parent; 
+// let isDebugMode = !module.parent; 
+let isDebugMode = false;
 
 //process.env.AUTO_KENT_DEBUG
 
